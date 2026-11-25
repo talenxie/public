@@ -19,8 +19,7 @@
         </span>
       </a>
       <nav class="nav-links">
-        <a href="#about">关于我们</a>
-        <a href="#projects">作品与服务</a>
+        <a href="#projects">产品列表</a>
         <a href="#contact">联系我们</a>
       </nav>
     </div>
@@ -36,83 +35,152 @@
           这里是「好佳学长（Haojia Studio）」，致力于打造多样化的小游戏、顺手高效的实用工具、微信小程序与网页服务。
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">浏览作品与协议</a>
+          <a href="#projects" class="btn btn-primary">浏览产品列表</a>
           <a href="#contact" class="btn btn-ghost">商务 / 反馈联系</a>
         </div>
       </div>
     </section>
 
-    <!-- 业务方向 -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2 class="section-title">我们在做什么</h2>
-        <p class="section-sub">围绕“轻量、好玩、省心”，持续探索多端小而美的产品体验。</p>
-        <div class="grid-4">
-          <div class="card">
-            <div class="card-icon">🎮</div>
-            <h3>小游戏</h3>
-            <p>涵盖多元题材与玩法的轻量级游戏作品，注重剧情体验、手感与趣味性。</p>
-          </div>
-          <div class="card">
-            <div class="card-icon">⚡</div>
-            <h3>效率工具</h3>
-            <p>聚焦日常高频小痛点，打造打开即用、界面干净的实用效率小工具。</p>
-          </div>
-          <div class="card">
-            <div class="card-icon">💬</div>
-            <h3>小程序 &amp; 公众号</h3>
-            <p>依托微信生态提供免安装、触手可及的轻量服务与内容交互体验。</p>
-          </div>
-          <div class="card">
-            <div class="card-icon">🌐</div>
-            <h3>网页与线上服务</h3>
-            <p>持续拓展跨平台 Web 工具与线上服务，让好用的功能随处可得。</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 作品与隐私协议入口 -->
+    <!-- 产品列表（按分类横向轮播） -->
     <section id="projects" class="section section-alt">
       <div class="container">
         <h2 class="section-title">产品列表</h2>
-        <p class="section-sub">以下展示部分已推出及开发中的产品与项目。</p>
-        <div class="grid-3">
-          <article class="project-card">
-            <div class="project-top">
-              <span class="tag">小游戏</span>
-              <span class="status">审核中</span>
-            </div>
-            <h3>总裁恋爱日常</h3>
-            <p>都市恋爱题材互动剧情小游戏，当前正在平台审核中，即将正式上线。</p>
-            <div class="project-links">
-              <a href="./loveStory/privacy-policy.html">查看隐私政策 →</a>
-            </div>
-          </article>
+        <p class="section-sub">左右滑动或点击箭头浏览各分类作品，点击卡片可进入对应作品宣传页。</p>
 
-          <article class="project-card">
-            <div class="project-top">
-              <span class="tag">效率工具</span>
-              <span class="status">规划中</span>
+        <!-- 分类 1：小游戏 -->
+        <div class="category-block">
+          <div class="category-head">
+            <div class="category-title-row">
+              <h3>🎮 小游戏</h3>
+              <span class="category-desc">涵盖多元题材与玩法的轻量级游戏作品，注重剧情体验、手感与趣味性。</span>
             </div>
-            <h3>实用效率小工具</h3>
-            <p>专注日常记录、格式转换与时间管理，无广告干扰、打开即用。</p>
-            <div class="project-links">
-              <span class="muted-link">敬请期待</span>
+            <div class="carousel-controls">
+              <button type="button" class="carousel-btn" data-dir="-1" aria-label="向左滚动">‹</button>
+              <button type="button" class="carousel-btn" data-dir="1" aria-label="向右滚动">›</button>
             </div>
-          </article>
+          </div>
+          <div class="carousel-track">
+            <a href="./loveStory/index.html" class="carousel-card">
+              <div class="carousel-cover cover-romance">
+                <span class="cover-badge">审核中</span>
+                <div class="cover-title">总裁恋爱日常</div>
+                <span class="cover-sub">互动剧情 · 都市恋爱</span>
+              </div>
+              <div class="carousel-body">
+                <h4>总裁恋爱日常</h4>
+                <p>都市恋爱题材互动剧情小游戏，当前正在平台审核中，即将正式上线。</p>
+                <span class="card-cta">进入作品宣传页 →</span>
+              </div>
+            </a>
 
-          <article class="project-card">
-            <div class="project-top">
-              <span class="tag">微信小程序</span>
-              <span class="status">规划中</span>
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-arcade">
+                <span class="cover-badge">开发中</span>
+                <div class="cover-title">更多创意新作</div>
+                <span class="cover-sub">多元玩法 · 筹备中</span>
+              </div>
+              <div class="carousel-body">
+                <h4>下一款小游戏企划</h4>
+                <p>全新题材与玩法正在打磨原型中，上线后将第一时间同步展示。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
             </div>
-            <h3>微信轻量服务</h3>
-            <p>结合公众号与小程序生态，提供便捷的生活与学习辅助服务。</p>
-            <div class="project-links">
-              <span class="muted-link">敬请期待</span>
+
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-puzzle">
+                <span class="cover-badge">规划中</span>
+                <div class="cover-title">轻量解压系列</div>
+                <span class="cover-sub">碎片时间 · 随时开玩</span>
+              </div>
+              <div class="carousel-body">
+                <h4>桌面 / 移动端小品</h4>
+                <p>轻量化短局体验，适合通勤与休息间隙随手打开来一局。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
             </div>
-          </article>
+          </div>
+        </div>
+
+        <!-- 分类 2：效率工具 -->
+        <div class="category-block">
+          <div class="category-head">
+            <div class="category-title-row">
+              <h3>⚡ 效率工具</h3>
+              <span class="category-desc">聚焦日常高频小痛点，打造打开即用、界面干净的实用效率小工具。</span>
+            </div>
+            <div class="carousel-controls">
+              <button type="button" class="carousel-btn" data-dir="-1" aria-label="向左滚动">‹</button>
+              <button type="button" class="carousel-btn" data-dir="1" aria-label="向右滚动">›</button>
+            </div>
+          </div>
+          <div class="carousel-track">
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-tool">
+                <span class="cover-badge">规划中</span>
+                <div class="cover-title">日常效率助手</div>
+                <span class="cover-sub">轻量记录 · 时间管理</span>
+              </div>
+              <div class="carousel-body">
+                <h4>实用效率小工具</h4>
+                <p>专注日常记录、格式转换与时间管理，无广告干扰、打开即用。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
+            </div>
+
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-web">
+                <span class="cover-badge">规划中</span>
+                <div class="cover-title">Web 在线工具箱</div>
+                <span class="cover-sub">跨平台 · 免安装</span>
+              </div>
+              <div class="carousel-body">
+                <h4>网页轻量工具集</h4>
+                <p>打开浏览器即可使用的轻量生产力小组件，后续将陆续开放。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 分类 3：微信小程序 & 公众号 -->
+        <div class="category-block">
+          <div class="category-head">
+            <div class="category-title-row">
+              <h3>💬 微信小程序 &amp; 公众号</h3>
+              <span class="category-desc">依托微信生态提供免安装、触手可及的轻量服务与内容交互体验。</span>
+            </div>
+            <div class="carousel-controls">
+              <button type="button" class="carousel-btn" data-dir="-1" aria-label="向左滚动">‹</button>
+              <button type="button" class="carousel-btn" data-dir="1" aria-label="向右滚动">›</button>
+            </div>
+          </div>
+          <div class="carousel-track">
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-wechat">
+                <span class="cover-badge">规划中</span>
+                <div class="cover-title">微信轻量服务</div>
+                <span class="cover-sub">小程序 · 即点即用</span>
+              </div>
+              <div class="carousel-body">
+                <h4>微信生态轻量服务</h4>
+                <p>结合公众号与小程序生态，提供便捷的生活、信息与辅助服务。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
+            </div>
+
+            <div class="carousel-card is-upcoming">
+              <div class="carousel-cover cover-service">
+                <span class="cover-badge">规划中</span>
+                <div class="cover-title">数字咨询与服务</div>
+                <span class="cover-sub">线上服务 · 持续拓展</span>
+              </div>
+              <div class="carousel-body">
+                <h4>数字内容与咨询服务</h4>
+                <p>持续探索面向个人与小团队的数字咨询与轻量线上服务产品。</p>
+                <span class="card-cta muted">敬请期待</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -134,8 +202,10 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>© 2026 好佳学长 (Haojia Studio). All rights reserved.</span>
-      <a href="./demo-game/privacy.html">通用隐私政策示例</a>
+      <a href="./loveStory/privacy-policy.html">《总裁恋爱日常》隐私政策</a>
     </div>
   </footer>
+
+  <script src="./assets/main.js"></script>
 </body>
 </html>
