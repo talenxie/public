@@ -18,12 +18,10 @@
 │   ├── logo.png                   # 品牌 Logo
 │   ├── style.css                  # 官网与宣传页通用样式（三栏网格、轮播卡片、响应式布局）
 │   └── main.js                    # 首页模块内图文轮播交互脚本
-├── loveStory/                     # 《总裁恋爱日常》作品目录
+├── loveStory/                     # 《总裁恋爱日常》作品目录（新增项目可直接参考）
 │   ├── index.html                 # 作品宣传页（宣传图、核心玩法介绍、隐私政策入口）
 │   ├── promo.jpg                  # 作品宣传图
 │   └── privacy-policy.html        # 《总裁恋爱日常》隐私政策页
-└── demo-game/
-    └── privacy.html               # 单项目隐私政策页模板（样式内联，可独立复用）
 ```
 
 ---
@@ -42,7 +40,7 @@
 ## 新增作品与维护规范
 
 1. **新增作品页面**
-   - 在根目录新建英文目录（例如 `my-tool/`），放置作品宣传页 `index.html`、宣传图及隐私政策页（可参考 `demo-game/privacy.html` 或 `loveStory/`）。
+   - 在根目录新建英文目录（例如 `my-tool/`），直接参考 `loveStory/` 的结构放置作品宣传页 `index.html`、宣传图及隐私政策页 `privacy-policy.html`。
 2. **更新首页入口**
    - 在 `index.html` 对应分类卡片中新增或更新作品条目（如在小游戏 `.mini-carousel-track` 中新增 `.mini-slide` 卡片与对应 `.dot`）。
 3. **静态资源版本控制（重要）**
