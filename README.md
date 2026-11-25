@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="好佳学长 Logo" width="88" />
+</p>
+
 # 好佳学长（Haojia Studio）官网与作品展示仓库
 
 用于托管「好佳学长（Haojia Studio）」个人开发官网首页、各产品宣传页及隐私政策页面，通过 GitHub Pages 自动部署发布。
