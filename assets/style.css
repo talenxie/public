@@ -489,6 +489,16 @@ a.mini-slide:hover .mini-slide-thumb img {
   font-size: 14px;
 }
 
+.contact-link {
+  font-size: 14px;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: var(--text);
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
