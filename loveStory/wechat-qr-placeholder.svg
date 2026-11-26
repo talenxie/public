@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="微信小游戏二维码即将上线占位图">
+  <defs>
+    <linearGradient id="wxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17202b" />
+      <stop offset="100%" stop-color="#132620" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="18" fill="url(#wxBg)" stroke="#2a3a35" stroke-width="2" />
+  <!-- Decorative QR finder corners -->
+  <g fill="none" stroke="#07c160" stroke-width="4" opacity="0.55">
+    <rect x="24" y="24" width="38" height="38" rx="6" />
+    <rect x="178" y="24" width="38" height="38" rx="6" />
+    <rect x="24" y="178" width="38" height="38" rx="6" />
+  </g>
+  <g fill="#07c160" opacity="0.55">
+    <rect x="35" y="35" width="16" height="16" rx="3" />
+    <rect x="189" y="35" width="16" height="16" rx="3" />
+    <rect x="35" y="189" width="16" height="16" rx="3" />
+  </g>
+  <!-- Subtle QR grid dots -->
+  <g fill="#3a4c5e" opacity="0.45">
+    <rect x="82" y="32" width="10" height="10" rx="2" />
+    <rect x="102" y="32" width="10" height="10" rx="2" />
+    <rect x="128" y="32" width="10" height="10" rx="2" />
+    <rect x="148" y="32" width="10" height="10" rx="2" />
+    <rect x="82" y="52" width="10" height="10" rx="2" />
+    <rect x="115" y="52" width="10" height="10" rx="2" />
+    <rect x="148" y="52" width="10" height="10" rx="2" />
+    <rect x="32" y="82" width="10" height="10" rx="2" />
+    <rect x="52" y="82" width="10" height="10" rx="2" />
+    <rect x="178" y="82" width="10" height="10" rx="2" />
+    <rect x="198" y="82" width="10" height="10" rx="2" />
+    <rect x="32" y="148" width="10" height="10" rx="2" />
+    <rect x="52" y="148" width="10" height="10" rx="2" />
+    <rect x="178" y="148" width="10" height="10" rx="2" />
+    <rect x="198" y="148" width="10" height="10" rx="2" />
+    <rect x="82" y="184" width="10" height="10" rx="2" />
+    <rect x="102" y="198" width="10" height="10" rx="2" />
+    <rect x="128" y="184" width="10" height="10" rx="2" />
+    <rect x="148" y="198" width="10" height="10" rx="2" />
+    <rect x="184" y="184" width="16" height="16" rx="3" />
+  </g>
+  <!-- Center badge -->
+  <rect x="44" y="84" width="152" height="72" rx="12" fill="#11161d" stroke="#07c160" stroke-width="1.5" stroke-opacity="0.7" />
+  <text x="120" y="114" text-anchor="middle" fill="#f3f5f8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="600">微信小游戏二维码</text>
+  <text x="120" y="138" text-anchor="middle" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13" font-weight="500">即将上线 · 敬请期待</text>
+</svg>
