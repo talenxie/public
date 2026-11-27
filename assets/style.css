@@ -385,6 +385,7 @@ a.mini-slide:hover {
 }
 
 .mini-slide-thumb {
+  position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
@@ -426,26 +427,28 @@ a.mini-slide:hover .mini-slide-thumb img {
 .mini-thumb-badge {
   position: absolute;
   top: 8px;
+  z-index: 2;
   padding: 2px 8px;
   border-radius: 999px;
   font-size: 11px;
   line-height: 1.4;
   font-weight: 500;
   pointer-events: none;
+  backdrop-filter: blur(6px);
 }
 
 .mini-thumb-badge.is-left {
   left: 8px;
   color: #4ade80;
-  background: rgba(7, 193, 96, 0.16);
-  border: 1px solid rgba(7, 193, 96, 0.35);
+  background: rgba(15, 23, 20, 0.75);
+  border: 1px solid rgba(7, 193, 96, 0.45);
 }
 
 .mini-thumb-badge.is-right {
   right: 8px;
   color: #ff85a6;
-  background: rgba(233, 78, 119, 0.16);
-  border: 1px solid rgba(233, 78, 119, 0.35);
+  background: rgba(24, 15, 22, 0.78);
+  border: 1px solid rgba(233, 78, 119, 0.45);
 }
 
 .mini-thumb-app img.mini-app-icon {
