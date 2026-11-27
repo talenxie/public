@@ -5,11 +5,11 @@
   <p>
     <a href="https://talenxie.github.io/public/index.html">官网首页</a>
     &nbsp;·&nbsp;
-    <a href="https://talenxie.github.io/public/loveStory/index.html">《总裁恋爱日常》宣传页</a>
-    &nbsp;·&nbsp;
-    <a href="https://talenxie.github.io/public/heikeji-tools/index.html">《好佳学长的黑科技工具》宣传页</a>
-    &nbsp;·&nbsp;
     <a href="mailto:596998764@qq.com">反馈邮箱：596998764@qq.com</a>
+  </p>
+  <p>
+    🎮 <a href="https://talenxie.github.io/public/loveStory/index.html">《总裁恋爱日常》宣传页</a><br />
+    💬 <a href="https://talenxie.github.io/public/heikeji-tools/index.html">《好佳学长的黑科技工具》宣传页</a>
   </p>
 </div>
 
