@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>好佳学长的黑科技工具 — 微信小程序 | 好佳学长</title>
+  <meta name="description" content="好佳学长的黑科技工具是一款轻量的本地小工具箱，常用小工具打开即用，编码、计算这类都在手机上完成，数据不上传。" />
+  <link rel="icon" type="image/png" href="./icon.png" />
+  <link rel="stylesheet" href="../assets/style.css?v=14" />
+  <style>
+    .tool-hero {
+      padding: 72px 0 56px;
+      background: radial-gradient(circle at top center, rgba(56, 189, 248, 0.16), transparent 60%);
+    }
+    .tool-wrap {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .tool-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
+    .tool-icon {
+      width: 68px;
+      height: 68px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+      flex-shrink: 0;
+    }
+    .tool-info h1 {
+      font-size: clamp(26px, 4vw, 38px);
+      line-height: 1.25;
+    }
+    .tool-info p {
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-size: 16px;
+    }
+    .tool-pill {
+      background: rgba(52, 211, 153, 0.14);
+      color: #4ade80;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+    }
+    .qr-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 24px;
+      text-align: center;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    }
+    .qr-card img {
+      width: 210px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 14px;
+      background: #fff;
+      padding: 10px;
+      display: block;
+      margin: 0 auto 16px;
+    }
+    .qr-card strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+    .qr-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+    .feature-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+    .feature-card h3 {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+    .feature-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .tool-wrap {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../assets/logo.png" alt="好佳学长 Logo" class="brand-logo" />
+        <span class="brand-text">
+          <strong>好佳学长</strong>
+          <small>Haojia Studio</small>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html">返回官网</a>
+        <a href="../index.html#projects">产品列表</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="tool-hero">
+      <div class="container tool-wrap">
+        <div class="tool-info">
+          <span class="pill tool-pill">微信小程序 · 即将上线</span>
+          <div class="tool-brand">
+            <img src="./icon.png" alt="好佳学长的黑科技工具图标" class="tool-icon" />
+            <h1>好佳学长的黑科技工具</h1>
+          </div>
+          <p>
+            一个轻量的本地小工具箱，常用小工具打开即用，编码、计算这类都在手机上完成，数据不上传。目前小程序正在上线准备中，敬请期待！
+          </p>
+          <div class="hero-actions" style="justify-content: flex-start;">
+            <a href="../index.html#projects" class="btn btn-ghost">← 返回产品列表</a>
+          </div>
+        </div>
+        <div class="qr-card">
+          <img src="./qrcode.jpg" alt="好佳学长的黑科技工具微信小程序码" />
+          <strong>微信小程序码（即将上线）</strong>
+          <span>微信扫一扫即可访问，当前暂未正式发布，上线后第一时间开放使用。</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">核心特点</h2>
+        <p class="section-sub">轻量、纯粹、本地计算，打开微信即可随手使用</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>⚡ 打开即用</h3>
+            <p>无需额外安装独立 App，依托微信小程序随时呼出，日常高频小工具一站集齐。</p>
+          </div>
+          <div class="feature-card">
+            <h3>🧮 编码与计算</h3>
+            <p>涵盖常用编码转换、数值计算等实用能力，操作顺手直观，提升日常效率。</p>
+          </div>
+          <div class="feature-card">
+            <h3>🔒 本地处理 · 数据不上传</h3>
+            <p>所有处理逻辑均在手机本地完成，不上传用户数据，使用更安心、响应更迅速。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 好佳学长 (Haojia Studio). All rights reserved.</span>
+      <a href="mailto:596998764@qq.com">反馈邮箱：596998764@qq.com</a>
+    </div>
+  </footer>
+</body>
+</html>
